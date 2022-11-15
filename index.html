@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta http-equiv="content-type" content="text/html;charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>标题</title>
+
+    <link href="../static/css/style.css" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="../static/js/vector.js"></script>
+</head>
+
+<style type="text/css">
+    body {
+        background-image: url(https://s1.ax1x.com/2020/07/30/anDyzF.jpg);
+        background-size: cover;
+        text-align: center;
+        margin-top: 170px;
+    }
+</style>
+<div id="container">
+    <div id="output">
+        <div class="containerT">
+            <h1>唐同学的3D相册</h1>
+            <form class="form" id="entry_form" method="post">
+                <h2>账号：<input id="z" type="text" name="account" style="height:30px"></h2><br>
+                <h2>密码：<input id="m" type="password" name="pwd" style="height:30px"></h2><br>
+                <center>
+                    <div class="aa">
+                        <h3 id="h">Click me!(๑•̀ㅂ•́)و✧</h3>
+                    </div>
+                </center>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    var zz = document.getElementById("z")
+    var mm = document.getElementById("m")
+    var hh = document.getElementById("h")
+    hh.onclick = function() {
+        if (zz.value === '唐佳宏' && mm.value === '18223729649' && zz.value != '') {
+            location.href = "./1.html"
+        }
+    }
+</script>
+
+</body>
+
+</html>
